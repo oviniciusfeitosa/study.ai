@@ -31,6 +31,7 @@
     - Videos
       - [x] [Build ENTIRE Frontends With ONE Prompt - OpenUI Tutorial](https://www.youtube.com/watch?v=zzw2OSFw9xI)
 - Khoj
+  - [Github](https://github.com/khoj-ai/khoj)
   - Tutorials
     - Videos
       - [x] [Khoj: Personal Opensource AI Copilot - Deploy Powerful Autonomous AI Agents!](https://www.youtube.com/watch?v=Lnx2K4TOnC4&t=447s)
