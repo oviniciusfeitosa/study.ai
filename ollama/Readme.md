@@ -23,12 +23,12 @@
 ### Use other models
 
 - NOTE: It is also possible to add more than one model to the conversation
-- codegemma
+- **codegemma**
   - Downloading codegemma: `ollama pull codegemma`
     - Access the Open Web UI page: `http://localhost:8080`
     - At the top of the page
       - Select the template you would like to use: `codegemma:latest`
-- llava
+- **llava**
   - Downloading codegemma: `ollama pull llava`
     - Access the Open Web UI page: `http://localhost:8080`
     - At the top of the page
