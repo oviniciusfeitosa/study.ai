@@ -35,6 +35,10 @@
   - Tutorials
     - Videos
       - [x] [Khoj: Personal Opensource AI Copilot - Deploy Powerful Autonomous AI Agents!](https://www.youtube.com/watch?v=Lnx2K4TOnC4&t=447s)
+- Build & deploy
+  - Tutorials
+    - Videos
+      - [ ] [Build & Deploy AI SaaS with Reoccurring Revenue (Next.js, OpenAI, Stripe, Tailwind, Vercel)](https://www.youtube.com/watch?v=r895rFUbGtE)
 
 ## References
 
