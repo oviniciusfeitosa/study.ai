@@ -35,3 +35,12 @@
   - Tutorials
     - Videos
       - [x] [Khoj: Personal Opensource AI Copilot - Deploy Powerful Autonomous AI Agents!](https://www.youtube.com/watch?v=Lnx2K4TOnC4&t=447s)
+
+## References
+
+- IDE / Text Editors
+  - VSCode
+    - Extensions
+      - Tutorials
+        - Videos
+          - [x] [FINALLY! Open-Source "LLaMA Code" Coding Assistant (Tutorial)](https://www.youtube.com/watch?v=gY_E3QBZ-NE)
