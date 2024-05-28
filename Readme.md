@@ -2,14 +2,52 @@
 
 ## Study List
 
-- Ollama
-  - [Github](https://github.com/ollama/ollama)
-- Groq
-- Serper
+- Tools
+  - VSCode
+    - AI Assistant
+      - Tutorials
+        - Videos
+          - [ ] [STOP PAYING for Github's Copilot with this LOCAL & Free Code Assistant](https://www.youtube.com/watch?v=aK8aWrW-YOI)
+  - Search API
+    - [Google Serper Search](https://serper.dev/)
+- Database
+  - ChromaDB
+    - [Github](https://github.com/chroma-core/chroma)
+    - Tutorials
+      - [ ] [Tutorial do Chroma DB: Um guia passo a passo](https://www.datacamp.com/pt/tutorial/chromadb-tutorial-step-by-step-guide)
+  - VectorDB
+    - [Github](https://github.com/jina-ai/vectordb)
+- RAG
+  - Tutorials
+    - Videos
+      - [ ] [Introdução ao RAG - Retrieval Augmented Generation](https://www.youtube.com/watch?v=7IEOVgxS1cc)
+      - [ ] [Como usar seu próprio conteúdo em Inteligência Artificial no GPT3.5 - RAG](https://www.youtube.com/watch?v=gMSDl0PvjqI)
+- LPU
+  - Groq
+- LLM
+  - Framework
+    - [Langchain](https://www.langchain.com/)
+      - [Github](https://github.com/langchain-ai/langchain)
+      - Langchain + Google Server
+        - [Docs](https://python.langchain.com/v0.1/docs/integrations/tools/google_serper/)
+  - Ollama
+    - [Github](https://github.com/ollama/ollama)
+  - OpenAI
+- LLama + Groq
+  - Tutorials
+    - [ ] [Groq e Llama 3: uma dupla que muda o jogo](https://meetcody.ai/pt-br/blog/groq-e-llama-3-uma-dupla-que-muda-o-jogo/)
 - CrewAI
   - [Installation](https://docs.crewai.com/how-to/Installing-CrewAI/#installation)
   - [Tools](https://docs.crewai.com/core-concepts/Tools/#using-crewai-tools)
+    - [SerperDevTool Documentation](https://docs.crewai.com/tools/SerperDevTool/)
     - [ScrapeWebsiteTool](https://docs.crewai.com/tools/ScrapeWebsiteTool/)
+    - [SeleniumScrapingTool](https://docs.crewai.com/tools/SeleniumScrapingTool/)
+    - [Directory RAG Search - DirectorySearchTool](https://docs.crewai.com/tools/DirectorySearchTool/)
+    - [PDF RAG Search - PDFSearchTool](https://docs.crewai.com/tools/PDFSearchTool/)
+    - [TXT RAG Search - TXTSearchTool](https://docs.crewai.com/tools/TXTSearchTool/)
+    - [CSV RAG Search - CSVSearchTool](https://docs.crewai.com/tools/CSVSearchTool/)
+    - [Docx RAG Search - DOCXSearchTool](https://docs.crewai.com/tools/DOCXSearchTool/)
+    - [Website RAG Search - WebsiteSearchTool](https://docs.crewai.com/tools/WebsiteSearchTool/)
   - Tutorials
     - [ ] [Crew AI — your own minions](https://medium.com/@csakash03/crew-ai-you-own-minions-9b8596ce3da3)
     - [ ] [AI Crew for Trip Planning](https://github.com/joaomdmoura/crewAI-examples/tree/main/trip_planner)
@@ -40,6 +78,8 @@
     - Videos
       - [ ] [Build & Deploy AI SaaS with Reoccurring Revenue (Next.js, OpenAI, Stripe, Tailwind, Vercel)](https://www.youtube.com/watch?v=r895rFUbGtE)
 
+
+  - 
 ## References
 
 - IDE / Text Editors
