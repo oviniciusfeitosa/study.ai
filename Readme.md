@@ -2,6 +2,15 @@
 
 ## Study List
 
+- Concepts
+  - RAG
+    - About
+      - [O que é RAG?](https://aws.amazon.com/pt/what-is/retrieval-augmented-generation/)
+      - [O que é RAG (Retrieval-Augmented Generation)?](https://triggo.ai/blog/o-que-e-retrieval-augmented-generation/)
+    - Tutorials
+      - Videos
+        - [ ] [Introdução ao RAG - Retrieval Augmented Generation](https://www.youtube.com/watch?v=7IEOVgxS1cc)
+        - [ ] [Como usar seu próprio conteúdo em Inteligência Artificial no GPT3.5 - RAG](https://www.youtube.com/watch?v=gMSDl0PvjqI)
 - Tools
   - VSCode
     - AI Assistant
@@ -17,52 +26,48 @@
       - [ ] [Tutorial do Chroma DB: Um guia passo a passo](https://www.datacamp.com/pt/tutorial/chromadb-tutorial-step-by-step-guide)
   - VectorDB
     - [Github](https://github.com/jina-ai/vectordb)
-- RAG
-  - Tutorials
-    - Videos
-      - [ ] [Introdução ao RAG - Retrieval Augmented Generation](https://www.youtube.com/watch?v=7IEOVgxS1cc)
-      - [ ] [Como usar seu próprio conteúdo em Inteligência Artificial no GPT3.5 - RAG](https://www.youtube.com/watch?v=gMSDl0PvjqI)
+
 - LPU
   - Groq
 - LLM
   - Framework
     - [Langchain](https://www.langchain.com/)
       - [Github](https://github.com/langchain-ai/langchain)
-      - Langchain + Google Server
-        - [Docs](https://python.langchain.com/v0.1/docs/integrations/tools/google_serper/)
-  - Ollama
+      - [Langchain + Google Server Search](https://python.langchain.com/v0.1/docs/integrations/tools/google_serper/)
+    - [CrewAI](https://www.crewai.com/)
+      - [Installation](https://docs.crewai.com/how-to/Installing-CrewAI/#installation)
+      - [Tools](https://docs.crewai.com/core-concepts/Tools/#using-crewai-tools)
+        - [SerperDevTool Documentation](https://docs.crewai.com/tools/SerperDevTool/)
+        - [ScrapeWebsiteTool](https://docs.crewai.com/tools/ScrapeWebsiteTool/)
+        - [SeleniumScrapingTool](https://docs.crewai.com/tools/SeleniumScrapingTool/)
+        - [Directory RAG Search - DirectorySearchTool](https://docs.crewai.com/tools/DirectorySearchTool/)
+        - [PDF RAG Search - PDFSearchTool](https://docs.crewai.com/tools/PDFSearchTool/)
+        - [TXT RAG Search - TXTSearchTool](https://docs.crewai.com/tools/TXTSearchTool/)
+        - [CSV RAG Search - CSVSearchTool](https://docs.crewai.com/tools/CSVSearchTool/)
+        - [Docx RAG Search - DOCXSearchTool](https://docs.crewai.com/tools/DOCXSearchTool/)
+        - [Website RAG Search - WebsiteSearchTool](https://docs.crewai.com/tools/WebsiteSearchTool/)
+      - Tutorials
+        - [ ] [Crew AI — your own minions](https://medium.com/@csakash03/crew-ai-you-own-minions-9b8596ce3da3)
+        - [ ] [AI Crew for Trip Planning](https://github.com/joaomdmoura/crewAI-examples/tree/main/trip_planner)
+        - [ ] [Create & Execute Crew AI Agent(A Cutting-edge framework for orchestrating role-playing, autonomous AI agents) with LLAMA2 Model on Your Local Machine without any need of OPENAI Key](https://kaustavmukherjee-66179.medium.com/create-eexcute-crew-ai-agent-with-llama2-model-without-any-need-og-openai-key-def216cd5f4f)
+        - Videos
+          - [x] [The RIGHT WAY To Build AI Agents with CrewAI](https://www.youtube.com/watch?v=iJjSjmZnNlI)
+          - [ ] [Mini curso CrewAI saindo do absoluto Zero ao Essencial](https://www.youtube.com/watch?v=AFurCSh1APU)
+          - [ ] [How To Connect Local LLMs to CrewAI](https://www.youtube.com/watch?v=0ai-L50VCYU)
+          - [ ] [How To Connect Llama3 to CrewAI \[Groq + Ollama\]](https://www.youtube.com/watch?v=02cdCd43Ccc)
+          - [ ] [Build Anything with Llama 3 Agents, Here’s How](https://www.youtube.com/watch?v=i-txsBoTJtI&t=296s)
+          - [ ] [Web scraping Using LLMs, AI Agent, and Crewai](https://www.youtube.com/watch?v=CqZhoohl0Qg)
+          - [ ] [Chat with Multiple PDFs | LangChain App Tutorial in Python (Free LLMs and Embeddings)](https://www.youtube.com/watch?v=dXxQ0LR-3Hg)
+          - [ ] [Automate AI Research with Crew.ai and Mozilla Llamafile](https://www.youtube.com/watch?v=OUgb3hKSn9U)
+          - [ ] [COMO CRIAR UM ENXAME DE AGENTES GPT! \[AULA COMPLETA\]](https://www.youtube.com/watch?v=Y3svyBYAeYg)
+          - [ ] [Build a Web App (GUI) for your CrewAI Automation (Easy with Python)](https://www.youtube.com/watch?v=vhbfs38XmKk)
+          - [ ] [CrewAI with Open LLM (Llama 3) using Groq API: AI Agents for Data Analysis with Custom Tools](https://www.youtube.com/watch?v=N5sos1X30Rw)
+  - [Ollama](./docs/ollama/Readme.md)
     - [Github](https://github.com/ollama/ollama)
   - OpenAI
 - LLama + Groq
   - Tutorials
     - [ ] [Groq e Llama 3: uma dupla que muda o jogo](https://meetcody.ai/pt-br/blog/groq-e-llama-3-uma-dupla-que-muda-o-jogo/)
-- CrewAI
-  - [Installation](https://docs.crewai.com/how-to/Installing-CrewAI/#installation)
-  - [Tools](https://docs.crewai.com/core-concepts/Tools/#using-crewai-tools)
-    - [SerperDevTool Documentation](https://docs.crewai.com/tools/SerperDevTool/)
-    - [ScrapeWebsiteTool](https://docs.crewai.com/tools/ScrapeWebsiteTool/)
-    - [SeleniumScrapingTool](https://docs.crewai.com/tools/SeleniumScrapingTool/)
-    - [Directory RAG Search - DirectorySearchTool](https://docs.crewai.com/tools/DirectorySearchTool/)
-    - [PDF RAG Search - PDFSearchTool](https://docs.crewai.com/tools/PDFSearchTool/)
-    - [TXT RAG Search - TXTSearchTool](https://docs.crewai.com/tools/TXTSearchTool/)
-    - [CSV RAG Search - CSVSearchTool](https://docs.crewai.com/tools/CSVSearchTool/)
-    - [Docx RAG Search - DOCXSearchTool](https://docs.crewai.com/tools/DOCXSearchTool/)
-    - [Website RAG Search - WebsiteSearchTool](https://docs.crewai.com/tools/WebsiteSearchTool/)
-  - Tutorials
-    - [ ] [Crew AI — your own minions](https://medium.com/@csakash03/crew-ai-you-own-minions-9b8596ce3da3)
-    - [ ] [AI Crew for Trip Planning](https://github.com/joaomdmoura/crewAI-examples/tree/main/trip_planner)
-    - [ ] [Create & Execute Crew AI Agent(A Cutting-edge framework for orchestrating role-playing, autonomous AI agents) with LLAMA2 Model on Your Local Machine without any need of OPENAI Key](https://kaustavmukherjee-66179.medium.com/create-eexcute-crew-ai-agent-with-llama2-model-without-any-need-og-openai-key-def216cd5f4f)
-    - Videos
-      - [x] [The RIGHT WAY To Build AI Agents with CrewAI](https://www.youtube.com/watch?v=iJjSjmZnNlI)
-      - [ ] [How To Connect Local LLMs to CrewAI](https://www.youtube.com/watch?v=0ai-L50VCYU)
-      - [ ] [How To Connect Llama3 to CrewAI \[Groq + Ollama\]](https://www.youtube.com/watch?v=02cdCd43Ccc)
-      - [ ] [Build Anything with Llama 3 Agents, Here’s How](https://www.youtube.com/watch?v=i-txsBoTJtI&t=296s)
-      - [ ] [Web scraping Using LLMs, AI Agent, and Crewai](https://www.youtube.com/watch?v=CqZhoohl0Qg)
-      - [ ] [Chat with Multiple PDFs | LangChain App Tutorial in Python (Free LLMs and Embeddings)](https://www.youtube.com/watch?v=dXxQ0LR-3Hg)
-      - [ ] [Automate AI Research with Crew.ai and Mozilla Llamafile](https://www.youtube.com/watch?v=OUgb3hKSn9U)
-      - [ ] [COMO CRIAR UM ENXAME DE AGENTES GPT! \[AULA COMPLETA\]](https://www.youtube.com/watch?v=Y3svyBYAeYg)
-      - [ ] [Build a Web App (GUI) for your CrewAI Automation (Easy with Python)](https://www.youtube.com/watch?v=vhbfs38XmKk)
-      - [ ] [CrewAI with Open LLM (Llama 3) using Groq API: AI Agents for Data Analysis with Custom Tools](https://www.youtube.com/watch?v=N5sos1X30Rw)
 - OpenUI
   - [Github](https://github.com/wandb/openui)
   - Tutorials
