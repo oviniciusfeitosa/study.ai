@@ -29,6 +29,9 @@
 
 - LPU
   - Groq
+- Company
+  - OpenAI
+  - [Anthropic](https://www.anthropic.com/)
 - LLM
   - Framework
     - [Langchain](https://www.langchain.com/)
@@ -64,7 +67,6 @@
           - [ ] [CrewAI with Open LLM (Llama 3) using Groq API: AI Agents for Data Analysis with Custom Tools](https://www.youtube.com/watch?v=N5sos1X30Rw)
   - [Ollama](./docs/ollama/Readme.md)
     - [Github](https://github.com/ollama/ollama)
-  - OpenAI
 - LLama + Groq
   - Tutorials
     - [ ] [Groq e Llama 3: uma dupla que muda o jogo](https://meetcody.ai/pt-br/blog/groq-e-llama-3-uma-dupla-que-muda-o-jogo/)
