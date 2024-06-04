@@ -19,6 +19,11 @@
           - [ ] [STOP PAYING for Github's Copilot with this LOCAL & Free Code Assistant](https://www.youtube.com/watch?v=aK8aWrW-YOI)
   - Search API
     - [Google Serper Search](https://serper.dev/)
+  - Marker
+    - Converts PDF to markdown
+    - Videos
+      - [ ] [Marker: This Open-Source Tool will make your PDFs LLM Ready](https://www.youtube.com/watch?v=mdLBr9IMmgI)
+
 - Database
   - ChromaDB
     - [Github](https://github.com/chroma-core/chroma)
@@ -29,11 +34,21 @@
 
 - LPU
   - Groq
-- Company
-  - OpenAI
-  - [Anthropic](https://www.anthropic.com/)
+
 - LLM
+  - Service
+    - Paid
+      - OpenAI
+      - [Anthropic](https://www.anthropic.com/)
+    - Local
+      - [Ollama](./docs/ollama/Readme.md)
+        - [Github](https://github.com/ollama/ollama)
   - Framework
+    - Fabric
+      - [Github](https://github.com/danielmiessler/fabric)
+      - Videos
+        - [ ] [Fabric: Opensource AI Framework That Can Automate Your Life!](https://www.youtube.com/watch?v=nTQIYWgn-lQ)
+        - [ ] [this changed how I use AI...](https://www.youtube.com/watch?v=UbDyjIIGaxQ)
     - [Langchain](https://www.langchain.com/)
       - [Github](https://github.com/langchain-ai/langchain)
       - [Langchain + Google Server Search](https://python.langchain.com/v0.1/docs/integrations/tools/google_serper/)
@@ -65,8 +80,7 @@
           - [ ] [COMO CRIAR UM ENXAME DE AGENTES GPT! \[AULA COMPLETA\]](https://www.youtube.com/watch?v=Y3svyBYAeYg)
           - [ ] [Build a Web App (GUI) for your CrewAI Automation (Easy with Python)](https://www.youtube.com/watch?v=vhbfs38XmKk)
           - [ ] [CrewAI with Open LLM (Llama 3) using Groq API: AI Agents for Data Analysis with Custom Tools](https://www.youtube.com/watch?v=N5sos1X30Rw)
-  - [Ollama](./docs/ollama/Readme.md)
-    - [Github](https://github.com/ollama/ollama)
+  
 - LLama + Groq
   - Tutorials
     - [ ] [Groq e Llama 3: uma dupla que muda o jogo](https://meetcody.ai/pt-br/blog/groq-e-llama-3-uma-dupla-que-muda-o-jogo/)
@@ -84,6 +98,9 @@
   - Tutorials
     - Videos
       - [ ] [Build & Deploy AI SaaS with Reoccurring Revenue (Next.js, OpenAI, Stripe, Tailwind, Vercel)](https://www.youtube.com/watch?v=r895rFUbGtE)
+- Hardware
+  - Videos
+    - [x] [Using GPT-4o to train a 2,000,000x smaller model (that runs directly on device)](https://www.youtube.com/watch?v=Jou0aRgGiis)
 
 
   - 

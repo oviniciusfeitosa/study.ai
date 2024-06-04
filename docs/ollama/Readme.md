@@ -9,13 +9,28 @@
 ## Run
 
 - Download llama3: `ollama pull llama3`
+- Download phi3: `ollama pull phi3`
 - Run: `ollama run llama3`
 - Watch video card performance: `watch -n 0.5 nvidia-smi`
 
 ## OpenWebUI
 
-- Run the WebUI with Docker: `docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main`
-- Then access: `http://localhost:8080`
+- Options to run the WebUI with Docker:
+  - Basic: `docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main`
+    - Then access: `http://localhost:8080`
+  - Using NVIDIA GPU: `docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda`
+    - Then access: `http://localhost:3000`
+  - Store data in another folder: 
+    - (*) You can set another folder to store data like `/opt/www/open-webui/open-webui/data`, e.g.
+    - Use the command: `docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v /opt/www/open-webui/open-webui/data:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda`
+  - Using an alias:
+    
+    - Open your profile or aliases preference: `vim ~/.sh_aliases`
+    - Add the aliases:
+      - To start webui: `alias webui="docker run -d -p 9999:8080 --gpus all --add-host=host.docker.internal:host-gateway -v /opt/www/open-webui/open-webui/data:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda ; echo 'open http://localhost:9999'"`
+      - To stop webui: `alias stopWebui="docker rm -f open-webui"`
+    - Source yout profile or aliases: `source ~/.sh_aliases`
+    - Then start Open Webui: `webui`
 - Click on `Signup`
   - Fill in username and password
   - Acquire administrative privileges
