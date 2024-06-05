@@ -33,7 +33,7 @@
   - Using an alias:
     - Open your profile or aliases preference: `vim ~/.sh_aliases`
     - Add the aliases:
-      - To start webui: `alias startWebui="docker run -d -p 9999:8080 --network=bridge -e OLLAMA_BASE_URL=http://host.docker.internal:11434 -v /opt/www/open-webui/open-webui/data:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main ; echo 'open http://localhost:9999'"`
+      - To start webui: `alias startWebui="docker run -d -p 9999:8080 --add-host=host.docker.internal:host-gateway -e OLLAMA_BASE_URL=http://host.docker.internal:11434 -v /opt/www/open-webui/open-webui/data:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main ; echo 'open http://localhost:9999'"`
       - To stop webui: `alias stopWebui="docker rm -f open-webui"`
     - Source yout profile or aliases: `source ~/.sh_aliases`
     - Then start Open Webui: `webui`
