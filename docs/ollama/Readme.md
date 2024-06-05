@@ -3,7 +3,11 @@
 ## Install
 
 - **NOTE**: Preference for using an Nvidia graphics card
-- install: `curl -fsSL https://ollama.com/install.sh | sh`
+- Download and install: `curl -fsSL https://ollama.com/install.sh | sh`
+  - Open `/etc/systemd/system/ollama.service`
+  - Then add `Environment="OLLAMA_HOST=0.0.0.0"` below `[Service]`
+  - Save it
+  - Reload systemd and restart Ollama: `sudo systemctl daemon-reload; sudo systemctl restart ollama`
 - Then access: `http://localhost:11434`
 
 ## Run
@@ -18,16 +22,18 @@
 - Options to run the WebUI with Docker:
   - Basic: `docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main`
     - Then access: `http://localhost:8080`
+  - With bundled Ollama support
+    - `docker run -d -p 9999:8080 -v ollama:/root/.ollama -v /opt/www/open-webui/open-webui/data:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama`
   - Using NVIDIA GPU: `docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda`
     - Then access: `http://localhost:3000`
-  - Store data in another folder: 
+  - Store data in another folder:
     - (*) You can set another folder to store data like `/opt/www/open-webui/open-webui/data`, e.g.
-    - Use the command: `docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v /opt/www/open-webui/open-webui/data:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda`
+    - Use the command: `docker run -d -p 9999:8080 --add-host=host.docker.internal:host-gateway -e OLLAMA_BASE_URL=http://host.docker.internal:11434 -v /opt/www/open-webui/open-webui/data:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main`
+    - Then access: `http://localhost:9999`
   - Using an alias:
-    
     - Open your profile or aliases preference: `vim ~/.sh_aliases`
     - Add the aliases:
-      - To start webui: `alias webui="docker run -d -p 9999:8080 --gpus all --add-host=host.docker.internal:host-gateway -v /opt/www/open-webui/open-webui/data:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda ; echo 'open http://localhost:9999'"`
+      - To start webui: `alias startWebui="docker run -d -p 9999:8080 --network=bridge -e OLLAMA_BASE_URL=http://host.docker.internal:11434 -v /opt/www/open-webui/open-webui/data:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main ; echo 'open http://localhost:9999'"`
       - To stop webui: `alias stopWebui="docker rm -f open-webui"`
     - Source yout profile or aliases: `source ~/.sh_aliases`
     - Then start Open Webui: `webui`
@@ -102,3 +108,8 @@
     - `/help` - possible commands
     - `/ref on` - activates reference to the open document
     - `/ref off` - disables reference to the open document
+
+## References
+
+- [Hosting an AI chatbot with Ollama and Open WebUI](https://community.hetzner.com/tutorials/ai-chatbot-with-ollama-and-open-webui)
+- [Ollama - FAQ](https://github.com/ollama/ollama/blob/main/docs/faq.md)
