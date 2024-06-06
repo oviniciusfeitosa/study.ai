@@ -59,8 +59,8 @@
 
 ## Stable Diffusion
 
-- install dependencies: `sudo apt install -y make build-essential libssl-dev zlib-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git`
-- install pyenv: `curl https://pyenv.run | bash`
+- Install dependencies: `sudo apt install -y make build-essential libssl-dev zlib-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git`
+- Install pyenv: `curl https://pyenv.run | bash`
 - Add to your profile (~/.bashrc or ~/.profile):
 
   ```env
@@ -79,7 +79,7 @@
 - After downloading it will be running at `http://127.0.01:7860`
   - Generate images by texts
 
-## Stable Diffusion + OpenUI
+## Stable Diffusion + Open Webui
 
 - In the directory `/opt/www/stablediff` now run the shell script `webui.sh` with the command: `./webui.sh --listen --api`
 - Access the Web UI: `http://localhost:8080`
@@ -88,7 +88,7 @@
 - Click on `Save`
 - Now when a prompt is answered in OpenUI, an icon will appear to generate an image of the prompt
 
-## Documents + WebUI
+## Documents + Open Webui
 
 - Access the Web UI: `http://localhost:8080`
 - In the "Documents" side tab, add any document, for example, `document.txt`.
@@ -108,6 +108,16 @@
     - `/help` - possible commands
     - `/ref on` - activates reference to the open document
     - `/ref off` - disables reference to the open document
+
+## AnythingLLM vs Open Webui
+
+- [Official site](https://useanything.com/)
+- [Github](https://github.com/Mintplex-Labs/anything-llm)
+
+- Tutorials
+  - Videos
+    - [x] [Unleash the power of Local LLM's with Ollama x AnythingLLM](https://www.youtube.com/watch?v=IJYC6zf86lU)
+    - [ ] [AnythingLLM Cloud: Fully LOCAL Chat With Docs (PDF, TXT, HTML, PPTX, DOCX, and more)](https://www.youtube.com/watch?v=SP-Y_9OEaFg)
 
 ## References
 

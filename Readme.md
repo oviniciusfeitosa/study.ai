@@ -52,6 +52,13 @@
     - [Langchain](https://www.langchain.com/)
       - [Github](https://github.com/langchain-ai/langchain)
       - [Langchain + Google Server Search](https://python.langchain.com/v0.1/docs/integrations/tools/google_serper/)
+  - Proccess Automation
+    - [Agent Cloud](https://www.agentcloud.dev/)
+      - [Github](https://github.com/rnadigital/agentcloud?tab=readme-ov-file#getting-started)
+      - [Get Started](https://docs.agentcloud.dev/documentation/get-started/introduction)
+      - Tutorial
+        - [ ] [Agent Cloud vs CrewAI: An Indepth Comparison](https://www.agentcloud.dev/blog/agent-cloud-vs-crewai-a-comparison)
+        - [ ] [Tutorial to Build a RAG with Google Bigquery](https://docs.agentcloud.dev/documentation/guides/demo-chat-rag-bigquery)
     - [CrewAI](https://www.crewai.com/)
       - [Installation](https://docs.crewai.com/how-to/Installing-CrewAI/#installation)
       - [Tools](https://docs.crewai.com/core-concepts/Tools/#using-crewai-tools)
@@ -65,6 +72,9 @@
         - [Docx RAG Search - DOCXSearchTool](https://docs.crewai.com/tools/DOCXSearchTool/)
         - [Website RAG Search - WebsiteSearchTool](https://docs.crewai.com/tools/WebsiteSearchTool/)
       - Tutorials
+        - [x] [Crewai:Tool](https://crewai.net/posts/crewai-tool/)
+        - [ ] [Deep dive into CrewAI (With Examples)](https://blog.composio.dev/crewai-examples/)
+        - [ ] [Track AI Trends: CrewAI Agents & RAG](https://blog.lancedb.com/track-ai-trends-crewai-agents-rag/)
         - [ ] [Crew AI — your own minions](https://medium.com/@csakash03/crew-ai-you-own-minions-9b8596ce3da3)
         - [ ] [AI Crew for Trip Planning](https://github.com/joaomdmoura/crewAI-examples/tree/main/trip_planner)
         - [ ] [Create & Execute Crew AI Agent(A Cutting-edge framework for orchestrating role-playing, autonomous AI agents) with LLAMA2 Model on Your Local Machine without any need of OPENAI Key](https://kaustavmukherjee-66179.medium.com/create-eexcute-crew-ai-agent-with-llama2-model-without-any-need-og-openai-key-def216cd5f4f)
