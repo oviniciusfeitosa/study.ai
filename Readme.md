@@ -26,6 +26,9 @@
   - Platforms
     - OpenDevin
       - [Github](https://github.com/OpenDevin/OpenDevin)
+      - Tutorials
+        - Videos
+          - [ ] [OpenDevin Tutorial (Open-Source Devin) - Build Entire Apps From a Single Prompt](https://www.youtube.com/watch?v=dKD4a_sv69o)
 - Database
   - ChromaDB
     - [Github](https://github.com/chroma-core/chroma)
