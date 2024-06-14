@@ -23,7 +23,9 @@
     - Converts PDF to markdown
     - Videos
       - [ ] [Marker: This Open-Source Tool will make your PDFs LLM Ready](https://www.youtube.com/watch?v=mdLBr9IMmgI)
-
+  - Platforms
+    - OpenDevin
+      - [Github](https://github.com/OpenDevin/OpenDevin)
 - Database
   - ChromaDB
     - [Github](https://github.com/chroma-core/chroma)

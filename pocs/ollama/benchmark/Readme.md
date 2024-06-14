@@ -11,3 +11,4 @@
 
 - [Benchmark Throughput Performance with running local large language models (LLMs) via ollama](https://llm.aidatatools.com/)
 - [LLM Benchmark (ollama only)](https://github.com/MinhNgyuen/llm-benchmark)
+- [Benchllama](https://github.com/srikanth235/benchllama)
