@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "financial_analyst_crew"
+version = "0.1.0"
+description = "optimize_response_crew using crewAI"
+authors = ["Vinicius Feitosa da Silva <oviniciusfeitosa@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = {extras = ["tools"], version = "^0.22.2"}
+
+[tool.poetry.scripts]
+# optimize_response_crew = "optimize_response_crew.main:run"
+financial_analyst_crew = "financial_analyst_crew.main:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
