@@ -17,19 +17,7 @@
 - Run: `ollama run llama3`
 - Watch video card performance: `watch -n 0.5 nvidia-smi`
 
-## Commands
-
-- Benchmark
-  - llm_benchmark
-    - Install: `pip install llm-benchmark`
-    - Send systeminfo and benchmark results to a remote server: `llm_benchmark run`
-    - Do not send systeminfo and benchmark results to a remote server: `llm_benchmark run --no-sendinfo`
-    - Benchmark run on explicitly given the path to the ollama executable: 
-      - Custom path: `llm_benchmark run --ollamabin=~/code/ollama/ollama`
-      - Dynamic path: `llm_benchmark run --ollamabin=$(which ollama)`
-    - References
-      - [Benchmark Throughput Performance with running local large language models (LLMs) via ollama](https://llm.aidatatools.com/)
-      - [Github - ollama-benchmark](https://github.com/aidatatools/ollama-benchmark)
+## [POCs](../../pocs/ollama/)
 
 ## OpenWebUI
 
