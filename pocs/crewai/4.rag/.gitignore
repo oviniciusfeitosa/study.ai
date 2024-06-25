@@ -1,0 +1,7 @@
+venv
+__pycache__
+db
+avaliacao.json
+data/avaliacao.json
+data
+data2

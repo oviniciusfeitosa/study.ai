@@ -1,0 +1,9 @@
+crewai
+crewai[tools]
+duckduckgo-search
+langchain-community
+
+#test
+llama-index-llms-ollama
+llama-index-embeddings-huggingface
+ollama

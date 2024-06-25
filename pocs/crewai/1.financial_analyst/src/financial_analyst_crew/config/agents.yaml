@@ -7,6 +7,7 @@ company_researcher:
     An expert financial researcher, who spends all day and night thinking about financial performance of different companies.
   allow_delegation: false
   verbose: true
+  #cache: true
 
 company_analyst:
   role: >
@@ -17,3 +18,4 @@ company_analyst:
     An expert financial analyst, who prides themselves on creating clear and easily readable financial reports of different companies.
   allow_delegation: false
   verbose: true
+  #cache: true

@@ -1,0 +1,15 @@
+llm:
+  provider: ollama
+  config:
+    model: 'eas/nous-hermes-2-solar-10.7b'
+    temperature: 0.5
+    top_p: 1
+    stream: true
+    base_url: 'http://localhost:11434'
+
+embedder:
+  provider: ollama
+  config:
+    model: 'eas/nous-hermes-2-solar-10.7b'
+    # base_url: 'http://host.docker.internal:11434'
+    base_url: 'http://localhost:11434'

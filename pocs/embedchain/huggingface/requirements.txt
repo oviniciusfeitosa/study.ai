@@ -1,0 +1,6 @@
+embedchain
+embedchain[huggingface-hub]
+huggingface_hub
+sentence-transformers
+# ollama
+# transformers
