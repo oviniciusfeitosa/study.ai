@@ -57,7 +57,7 @@
     - [Langchain](https://www.langchain.com/)
       - [Github](https://github.com/langchain-ai/langchain)
       - [Langchain + Google Server Search](https://python.langchain.com/v0.1/docs/integrations/tools/google_serper/)
-  - Proccess Automation
+  - Proccess Automation / Multi-agent framework
     - [Agent Cloud](https://www.agentcloud.dev/)
       - [Github](https://github.com/rnadigital/agentcloud?tab=readme-ov-file#getting-started)
       - [Get Started](https://docs.agentcloud.dev/documentation/get-started/introduction)
@@ -66,6 +66,12 @@
         - [ ] [Tutorial to Build a RAG with Google Bigquery](https://docs.agentcloud.dev/documentation/guides/demo-chat-rag-bigquery)
     - [CrewAI](https://www.crewai.com/)
       - [Installation](https://docs.crewai.com/how-to/Installing-CrewAI/#installation)
+      - Docs
+        - Agents
+          - [Agent customization](https://docs.crewai.com/how-to/Customizing-Agents/)
+        - Process
+          - [Sequential](https://docs.crewai.com/how-to/Sequential/)
+          - [Hierarchical](https://docs.crewai.com/how-to/Hierarchical/)
       - [Tools](https://docs.crewai.com/core-concepts/Tools/#using-crewai-tools)
         - [SerperDevTool Documentation](https://docs.crewai.com/tools/SerperDevTool/)
         - [ScrapeWebsiteTool](https://docs.crewai.com/tools/ScrapeWebsiteTool/)
